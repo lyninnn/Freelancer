@@ -1,0 +1,355 @@
+*::after,::before{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 1.2rem;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --naranja:orange;
+    --blanco:white;
+    --azul:blue;
+    --amarillo:yellow;
+    --celeste:#0097a7;
+    --gris:#757575;
+    --primario:#ffc107;
+
+}
+/* Index.html version movil */
+.titulo{
+    text-align: center;
+}
+.titulo span{
+    color: var(--naranja);
+    font-size:20px;
+}
+.Nave{
+    background-color: var(--celeste);
+}
+.NavePrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NavePrincipal a:hover{
+    color: black;
+}
+.NavePrincipal a{
+    text-decoration: none;
+    color: var(--blanco);
+    cursor: pointer;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.NavePrincipal a:hover{
+    background-color: var(--naranja);
+}
+.imagen{
+    background-image: url(../imagen/freelancer.jpg);
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+.contenidoImagen{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.imagen div{
+    color: var(--blanco);
+    font-weight: bold;
+}
+.localizacion{
+    display: flex;
+    align-items: center;
+}
+.contenidoImagen button{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: var(--celeste);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+.contenidoImagen button:hover{
+    background-color: var(--naranja);
+    color: black;
+}
+
+.boxshadow{
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.5);
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.contenido{
+    text-align: center;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicios h3{
+    color: #0097a7;
+}
+.servicios p{
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.servicios div{
+    background-color: var(--primario);
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+.formula{
+    display: flex;
+    justify-content: center;
+}
+.formula form{
+    background-color: var(--gris);
+    border-radius: 10px;
+}
+.formularios{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+fieldset legend{
+    color: var(--primario);
+    text-transform:uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+fieldset label{
+    color: var(--blanco);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+fieldset input{
+    width: 100%;
+  padding: 1rem 0rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem 0 0.5rem 0;
+}
+fieldset textarea{
+    height: 10rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+fieldset button{
+    border-radius: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: var(--celeste);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+fieldset button:hover{
+    background-color: var(--primario);
+    color: black;
+}
+.buton1{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+/* Presupuesto.html version movil*/
+.presupuesto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area{
+    width: 80%;
+}
+.area h3{
+    color: var(--celeste);
+}
+.area span{
+    font-weight: bold;
+}
+.area button{
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: rgb(154, 43, 67);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.area button:hover{
+    background-color: rgb(159, 0, 34);
+}
+.borde{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    background-color: #0096a7;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--blanco);
+}
+h4{
+    font-size: 1.5rem;
+    color: var(--blanco);
+    text-decoration: underline;
+}
+h5{
+    font-size: 1.1rem;
+}
+.presentacion{
+    display: flex;
+    text-align: center;
+}
+.img img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    border: #757575;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media (min-width:800px){
+    /* Index.html version pc */
+
+    .NavePrincipal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imagen{
+        min-height: 30rem;
+        min-width: 20rem;
+    }
+    .contenidoImagen button{
+        width: auto;
+        border-radius: 3rem;
+    }
+    .contenidoImagen{
+        min-height: 30rem;
+        min-width: 20rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .servicio{
+    display: flex;
+    justify-content: space-between;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .servicio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    .campo:nth-child(3),
+    .campo:nth-child(4){
+    grid-column: 1/3;
+    }
+    .campo input{
+    width: 80%;
+    }
+    .formula form{
+        padding: 0.5rem;
+        padding-left: 1rem;
+        min-width:650px;
+    }
+    .campo input{
+        margin: 0;
+        width: 100%;
+    }
+    .buton1{
+        width: 100%;
+        grid-column: 2/3;
+    }
+    .campo textarea{
+        margin:0;
+    }
+    /* Presupuesto.html version pc */
+    .presupuesto{
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .area{
+        display: flex;
+        justify-content: center;
+    }
+    .borde{
+        width: 20rem;
+        height: 30rem;
+        justify-content: space-between;
+        
+    }
+    h5{
+        font-size: 2rem;
+    }
+    .cliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .img{
+        flex-direction: column;
+    }
+}
+
