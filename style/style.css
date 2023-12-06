@@ -188,6 +188,24 @@ fieldset button:hover{
     flex-direction: row-reverse;
 
 }
+/*Proyecto*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
 
 /* Presupuesto.html version movil*/
 .presupuesto{
